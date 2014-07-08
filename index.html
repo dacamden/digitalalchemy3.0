@@ -82,7 +82,7 @@ layout: none
 				<div class="reel">
 {% for post in site.posts %}
 					<article>
-						<a href="{{ post.url | prepend: site.baseurl }}" class="image featured"><img src="{{ post.imageurl }}" alt="" /></a>
+						<a href="{{ post.url | prepend: site.baseurl }}" class="image featured"><img src="{{ post.imageurl }}" max-height="300px" alt="" /></a>
 						<header>
 							<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 						</header>

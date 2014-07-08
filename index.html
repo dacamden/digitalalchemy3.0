@@ -87,7 +87,7 @@ layout: none
 							<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 						</header>
 						<h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
-            <p>{{ post.content |truncatehtml | truncatewords: 35 }}</p>
+            <p>{{ post.content |truncatehtml | truncatewords: 20 }}</p>
 					</article>
 				 {% endfor %}
 					

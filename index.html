@@ -86,7 +86,8 @@ layout: none
 						<header>
 							<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 						</header>
-						<p>{{ post.date | date: "%b %-d, %Y" }}</p>							
+						<h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
+            <p>{{ post.content |truncatehtml | truncatewords: 35 }}</p>
 					</article>
 				 {% endfor %}
 					
@@ -108,24 +109,6 @@ layout: none
 										<article class="tweet">
 											Reserved for twitter api
 											<span class="timestamp">5 minutes ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Hendrerit rutrum quisque.
-											<span class="timestamp">30 minutes ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
-											<span class="timestamp">3 hours ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
-											<span class="timestamp">5 hours ago</span>
 										</article>
 									</li>
 								</ul>

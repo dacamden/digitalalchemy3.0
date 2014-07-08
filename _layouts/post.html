@@ -79,7 +79,7 @@ layout: none
 									Tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
 								</p>
                 
-                {% for post in site.posts %}
+                {% for post in site.posts limit:10 %}
 								<div class="row half no-collapse">
 									<div class="4u">
 										<a href="{{ post.url | prepend: site.baseurl }}" class="image full"><img src="{{post.imageurl}}" style="max-height:100px" alt="" /></a>

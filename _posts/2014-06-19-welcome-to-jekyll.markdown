@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-06-19 16:34:55
 categories: jekyll update
-imageurl: #
+imageurl: http://epguides.com/Jekyll/cast.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

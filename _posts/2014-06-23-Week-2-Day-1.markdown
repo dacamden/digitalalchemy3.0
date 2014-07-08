@@ -3,7 +3,7 @@ layout: post
 title: "Week 2 - Reflections from last week"
 date: 2014-06-23 13:00:00
 categories: jekyll update
-imageurl: #
+imageurl: http://www.camdentownunlimited.com/sites/default/files/collective_logo-grey_rgb_0.jpg
 ---
 <i>"Its the difference between hiring a mobile home and building a hut."</i> - Theodore-q
 

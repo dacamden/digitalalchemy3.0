@@ -3,7 +3,7 @@ layout: post
 title: "Day 5"
 date: 2014-06-20 12:13:00
 categories: jekyll update
-imageurl: #
+imageurl: https://mrstrictlyintimate.files.wordpress.com/2012/04/day-5.jpg
 ---
 
 Today we decided to essentially begin our blog from scratch in order to fix things.

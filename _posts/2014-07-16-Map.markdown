@@ -8,3 +8,4 @@ imageurl: http://blog.dacamden.co.uk/images/map.png
 This week we have been set a task by Dr. Robin Housten PhD from kiln.it. Our task has been to replicate a project he has produced, but not provided. The project is a map of the world that shades regions depending on the retail and wholesale prices of cocaine. Interesting stuff, and of purely academic interest to us. Using SVG's library we have been able to produce a map which, when you hover over a country, a tooltip containing the name of the country and the continent it is in shall appear. Teammates Theo and Henri have been working tirelessly to convert the cocaine price data into a usable format for coloring our maps. For now the map has been coloured by continent, with Great Britian as a special exception.
 
 <iframe src="http://map.dacamden.co.uk" frameborder="0" width="100%" height="480px" ></iframe>
+<a href="http://map.dacamden.co.uk" >click to see full maps</a>

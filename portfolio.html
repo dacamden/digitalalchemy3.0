@@ -38,20 +38,24 @@ layout: none
   <!-- Jekyll CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	</head>
-	<body class="no-sidebar">
+	<body class="homepage">
 
 		<!-- Header -->
 			<div id="header">
-
+						
 				<!-- Inner -->
 					<div class="inner">
 						<header>
 							<h1><a href="#" id="logo">Digital Alchemy</a></h1>
+							<hr />
+							<span class="byline">#foundsAndCoders</span>
 						</header>
+						<footer>
+							<a href="#banner" class="button circled scrolly">Recent</a>
+						</footer>
 					</div>
 				
-				
-						<!-- Nav -->
+				<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li><a href="{{"/index.html" | prepend: site.baseurl }}" >Home</a></li>
@@ -63,16 +67,31 @@ layout: none
 
 			</div>
 			
-		<!-- Main -->
-			<div class="wrapper style1">
-
-				<div class="container">
-					<div class="row">
-						<div class="12u skel-cell-important" id="content">
-							<article id="main" class="special">
-								<header>
-									<h2><a href="#">About</a></h2>
-									<span class="byline">
-										Digital Alchemy is a team taking part in Founders and Coders II
-									</span>
-								</header>
+		<!-- Banner -->
+			<div id="banner">
+				<h2>Hi. Welcome to <strong>Digital Alchemy 3.0</strong>.</h2>
+				<span class="byline">
+					This is a blog chronicling the progress of team Digital Alchemy as they battle though a intense 7 week code learning programme.
+				</span>
+			</div>
+    
+    
+    
+		<!-- Carousel -->
+			<div class="carousel">
+				<div class="reel">
+{% for post in site.posts %}
+					<article>
+						<a href="{{ post.url | prepend: site.baseurl }}" class="image featured"><img src="{{ post.imageurl }}" style="max-height:300px;" alt="" /></a>
+						<header>
+							<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+						</header>
+						<h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
+            <p>{{ post.content |truncatehtml | truncatewords: 20 }}</p>
+					</article>
+				 {% endfor %}
+					
+				</div>
+			</div>
+			
+		
